@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta type="Content-Type" content="text/html" charset="UTF-8">
+    <title>My first website</title>
+    <style>
+        body {
+            margin: 0;
+            background-image: url('tumblr_5906ac44607301628ab48f57dd09e96c_8eb2db30_1280.jpg');
+            background-repeat: no-repeat;
+            background-position: fixed;
+            background-size: 100% 150%;
+        }
+
+        input {
+            height: 30px;
+            width: 24%;
+            outline: none;
+            border: none;
+            border-radius: 3px;
+            margin-right: 1210px;
+            margin-top: 10px;
+            float: right;
+            opacity: 0.8;
+            color: silver;
+            align-items: center;
+        }
+
+        .logo {   
+            width: 20px;
+            height: 40px;
+            margin-top: 2px;
+            float: left;
+            padding-left: 200px;
+            align-items: center;
+        }
+
+        .content {
+            height: 900px;
+            width: 300px;
+            margin: 0 auto;
+            padding: 0px;
+        }
+
+        .tumblr {
+            height: 60px;
+            width: 245px;
+            display: block;
+            margin: 0 auto;
+            padding-top: 220px;
+        }
+
+        .title {
+            text-align: center;
+            color: snow;
+            font-family: Arial;
+            font-size: 16px;
+            font-weight: normal;
+        }
+
+        .registration, .signingUp {
+            width: 100%;
+            height: 45px;
+            border-radius: 2px;
+            font-size: 16px;
+        }
+
+        .registration {
+            background-color: deepskyblue;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+
+        .signingUp {
+            background-color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+        }
+
+        .registration > a {
+            color: white;
+            border-radius: 2px;
+        }
+
+        .signingUp > a {
+            color: black;
+            border-radius: 2px;
+        }
+
+        a {
+            text-decoration: none;
+            text-align: center;
+            border-radius: 2px;
+        }
+
+        button {
+            outline: none;
+            border: none;
+            border-radius: 2px;
+            z-index: 1;
+        }
+
+        .popular {
+            height: 15px;
+            margin: 0 auto;
+            margin-left: 78px;
+            font-family: Arial, Helvetica, sans-serif;
+            position: absolute;
+        }
+
+        .popular > a {
+            color: white;
+        }
+
+        .Apple {
+            height: 40px;
+            width: 135px;
+            float: left;
+            margin-top: 100px;
+            padding: 0 9px;
+        }
+
+        .Android {
+            height: 40px;
+            width: 135px;
+            float: right;
+            margin-top: 100px;
+            padding-right: 10px;
+        }
+
+        .help {
+            width: 25%;
+            display: flex;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            align-self: center;
+            justify-content: space-around;
+            position: absolute;
+        }
+
+        .help > a {
+            margin-top: 35px;
+            color: white;
+        }
+
+        </style>
+</head>
+<body>
+    <header>
+        
+        <span>
+            <a href="https://www.tumblr.com/"><img src="tumblr_logo.png" class="logo"></a>
+        </span>
+
+        <span>
+            <input placeholder="Поиск в Tumblr">
+        </span>
+
+    </header>
+    
+    <div class="content">
+        <img src="tumblr.png" class="tumblr">
+            <h2 class="title">
+                Делитесь тем, что любите.
+                <br />
+                Находите то, что вам интересно.
+            </h2>
+
+            <br />
+
+            <div class="identification">
+                <a href="https://www.tumblr.com/register"><button class="registration">
+                    <span><b>Зарегистрироваться</b></span>
+                </button></a>
+                <br /><br />
+                <a href="https://www.tumblr.com/login"><button class="signingUp">    
+                    <span><b>Войти</b></span>
+                </button></a>
+
+            </div>
+            
+            <br />
+                
+            <div class="popular">
+                <a href="https://www.tumblr.com/explore/trending"><span><b>Сейчас популярно</b></span></a>
+            </div>
+
+            <div class="socialMedias">
+                <a href="https://apps.apple.com/app/apple-store/id305343404?mt=8"><img src="AppleStoreLogo.png" class="Apple"></a>
+                <a href="https://play.google.com/store/apps/details?id=com.tumblr&referrer=utm_source%3Dtumblr%26utm_medium%3Diframe%26utm_campaign%3Dsignup_page"><img src="GooglePlayLogo.png" class="Android"></a>
+            </div>
+    </div>
+
+    <footer>
+        <div class="help">
+            <a href="https://www.tumblr.com/policy/en/terms-of-service"><span>Условия</span></a>
+            <a href="https://www.tumblr.com/privacy"><span>Конфиденциальность</span></a>
+            <a href="https://www.tumblr.com/jobs"><span>Вакансии</span></a>
+            <a href="https://www.tumblr.com/support"><span>Поддержка</span></a>
+        </div>
+    </footer>
+</body>
+</html>
